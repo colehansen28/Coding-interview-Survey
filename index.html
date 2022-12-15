@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Application Survey</title>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+    <!--dont foget to center everything-->    
+<body>
+  <div class="survey"> 
+  <fieldset>
+  <h1 id="title">Coding Application Survey</h1>
+  <p id="description"> <em> Thank you for considering the coding application.Please fill out this form so I may improve for future applications </em></p>
+  </fieldset>
+  <form id="survey-form">
+    <fieldset> <!--fieldset 1-->
+       <label id="name-label" for="name">Enter your name:
+         <input class="userinput" required id="name" type="text" placeholder="John Wick"/>
+       </label>
+       <label id="email-label" for="email"> Enter your email:
+         <input class="userinput" required id="email" type="email" placeholder="Johnwicksdog@gmail.com"/>
+       </label>
+       <label id="number-label" for="phone-number"> Enter your phone number:
+         <!--learn how to do a phone number that results in html5-validation error-->
+         <input class="userinput" id="number" type="number" min="1111111111" max="9999999999" placeholder="(770)-459-8989"/>
+       </label>
+    </fieldset>
+    <fieldset> <!--fieldset 2 (selector) how likely are you to reccomend to other employers-->
+      <label name="referrer">How likely are you to refer this "applicant" to other employers?
+         <select class="refer" id="dropdown">
+           <option value=""> (select one)</option>
+           <option value="1"> Not at all</option>
+           <option value="2"> kinda maybe</option>
+           <option value="3"> like 70/30 for sure</option>
+           <option value="4"> 100% yes </option>
+
+        </select>
+      </label>
+    </fieldset>
+    <fieldset> How would you rate the application/interview (overall)?
+      <label class="radio" name="rating"> Good
+      <input type="radio" value="good" name="rating">
+      </label>
+      <label class="radio" name="rating"> Great
+      <input type="radio" value="great" name="rating">
+      </label>
+      <label class="radio" name="rating"> Magnficent
+      <input type="radio" value="magnificent" name="rating">
+      </label>
+      </fieldset>
+    <fieldset> What did you find to be the "applicant's" best attributes? (choose all that apply) <!--fieldset 3 (radio button ATA) what was his best attribute -->
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Communication
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Knowledge of programming language(s)
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Attention to detail
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Problemsolving skills
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Group-work/delegation skills
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Experience in the field 
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Attitude 
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Inquisitiveness
+      </label>
+    </fieldset>
+    <fieldset> What did you find to be the "applicant's" worst attributes? (choose all that apply)<!--fieldset 4 (radio button ATA) what does he need to improve upon-->
+     <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Communication
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Knowledge of programming language(s)
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Attention to Detail
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Problemsolving skills
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Group-work/delegation abilities 
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Experience in the field
+      </label>
+    <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Attitude 
+      </label>
+      <label>
+      <input
+      name="b-attributes"
+      value="comminication"
+      type="checkbox" 
+      class="attributes"/> Inquisitiveness 
+      </label>
+    </fielset>
+    <fieldset>
+      <label> Any Comments or suggestions?
+      <textarea id="comments" name="comments" rows="5" cols="45" placeholder="Enter your comment here..."></textarea>
+      </textarea>
+      </label>
+    </fieldset>  
+    <input id="submit" class="button" type="submit" value="Submit"/>
+  </form> 
+</div>  
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
